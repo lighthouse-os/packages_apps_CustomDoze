@@ -23,7 +23,7 @@
         android:key="doze_elements"
         android:title="@string/doze_elements_title" >
 
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
+        <com.lighthouse.settings.preference.SystemSettingSwitchPreference
             android:key="ambient_battery_percent"
             android:title="@string/ambient_battery_percent_title"
             android:summary="@string/ambient_battery_percent_summary"
@@ -34,7 +34,7 @@
         android:key="doze_trigger_key"
         android:title="@string/doze_trigger_title" >
 
-        <com.syberia.settings.preference.SecureSettingMasterSwitchPreference
+        <com.lighthouse.settings.preference.SecureSettingMasterSwitchPreference
             android:key="always_on_ambient"
             android:defaultValue="false"
             android:title="@string/aod_setting_title"
@@ -43,9 +43,9 @@
                 android:action="android.intent.action.MAIN"
                 android:targetPackage="com.custom.ambient.display"
                 android:targetClass="com.custom.ambient.display.AODSchedule" />
-        </com.syberia.settings.preference.SecureSettingMasterSwitchPreference>
+        </com.lighthouse.settings.preference.SecureSettingMasterSwitchPreference>
 
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
+        <com.lighthouse.settings.preference.SystemSettingSwitchPreference
             android:key="doze_on_charge"
             android:defaultValue="false"
             android:title="@string/doze_on_charge_title"
@@ -57,7 +57,7 @@
             android:title="@string/ambient_display_notifications"
             android:summary="@string/ambient_display_summary" />
 
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
+        <com.lighthouse.settings.preference.SystemSettingSwitchPreference
             android:key="pulse_on_new_tracks"
             android:defaultValue="true"
             android:title="@string/pulse_on_new_tracks_title"
@@ -68,7 +68,7 @@
         android:key="gestures"
         android:title="@string/gestures_title" >
 
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
+        <com.lighthouse.settings.preference.SystemSettingSwitchPreference
             android:key="doze_trigger_doubletap"
             android:defaultValue="false"
             android:title="@string/doze_double_tap_title"
@@ -104,21 +104,21 @@
         android:key="brightness"
         android:title="@string/brightness_title" >
 
-        <com.syberia.settings.preference.SystemSettingSeekBarPreference
+        <com.lighthouse.settings.preference.SystemSettingSeekBarPreference
             android:key="ambient_doze_brightness"
             android:title="@string/ambient_doze_brightness_title"
             android:max="255"
             settings:min="1"
             android:persistent="false" />
 
-        <com.syberia.settings.preference.SystemSettingSeekBarPreference
+        <com.lighthouse.settings.preference.SystemSettingSeekBarPreference
             android:key="ambient_pulse_brightness"
             android:title="@string/ambient_pulse_brightness_title"
             android:max="255"
             settings:min="1"
             android:persistent="false" />
 
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
+        <com.lighthouse.settings.preference.SystemSettingSwitchPreference
             android:key="doze_brightness_force"
             android:title="@string/doze_brightness_force_title"
             android:summary="@string/doze_brightness_force_summary"

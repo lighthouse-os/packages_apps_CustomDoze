@@ -28,10 +28,10 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
-import com.syberia.settings.preference.SecureSettingMasterSwitchPreference;
-import com.syberia.settings.preference.SecureSettingSwitchPreference;
-import com.syberia.settings.preference.SystemSettingSeekBarPreference;
-import com.syberia.settings.preference.SystemSettingSwitchPreference;
+import com.lighthouse.settings.preference.SecureSettingMasterSwitchPreference;
+import com.lighthouse.settings.preference.SecureSettingSwitchPreference;
+import com.lighthouse.settings.preference.SystemSettingSeekBarPreference;
+import com.lighthouse.settings.preference.SystemSettingSwitchPreference;
 
 public class DozeSettings extends PreferenceActivity implements PreferenceFragment.OnPreferenceStartFragmentCallback {
 

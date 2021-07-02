@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.preference;
+package com.lighthouse.settings.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.syberia.settings.preference.SecureSettingsStore;
+import com.lighthouse.settings.preference.SecureSettingsStore;
 
 public class SecureSettingMasterSwitchPreference extends MasterSwitchPreference {
 

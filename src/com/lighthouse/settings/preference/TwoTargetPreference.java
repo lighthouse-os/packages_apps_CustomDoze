@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.preference;
+package com.lighthouse.settings.preference;
 
 import android.content.Context;
 import androidx.preference.Preference;
